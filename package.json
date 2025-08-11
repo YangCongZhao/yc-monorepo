@@ -1,0 +1,8 @@
+{
+  "name": "yc-monorepo",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r --filter @yc/react-scripts run build || true",
+    "release": "changesets version && pnpm -r publish -r"
+  }
+}
