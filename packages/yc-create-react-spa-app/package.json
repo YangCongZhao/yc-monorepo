@@ -1,0 +1,17 @@
+{
+  "name": "yc-create-react-spa-app",
+  "version": "1.0.0",
+  "description": "react spa生成",
+  "bin": {
+    "yc-create-react-spa-app": "./bin/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "degit": "^2.8.4",
+    "execa": "^9.6.0",
+    "fs-extra": "^11.3.1",
+    "yargs-parser": "^22.0.0"
+  }
+}
